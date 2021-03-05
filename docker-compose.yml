@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  hosting-react:
+    image: hosting
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hosting-react
+    environment:
+      - VIRTUAL_HOST=service.salt-mine.io
+      - LETSENCRYPT_HOST=service.salt-mine.io
+      - LETSENCRYPT_EMAIL=olive@salt-mine.io
+    network_mode: "webproxy"
+    restart: always
+    stdin_open: true

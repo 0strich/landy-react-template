@@ -2,7 +2,7 @@
 
 ![landy](https://user-images.githubusercontent.com/48876996/100373174-cd393880-3023-11eb-9fef-8acdf9733120.gif)
 
-[Landy][Landy] is a free React landing page template designed for developers and startups, who want to create a quick and professional landing page for their business or project.
+[Landy][landy] is a free React landing page template designed for developers and startups, who want to create a quick and professional landing page for their business or project.
 
 This React template comes with multi-lingual support, smooth animations, set of ready to use sections and most importantly, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in React.js.
 
@@ -42,7 +42,7 @@ Your project will have everything you need to build a modern single-page React a
 
 ![1](https://user-images.githubusercontent.com/48876996/104335960-555c9a00-550d-11eb-8e94-4549637f72bd.PNG)
 
-[Google Lighthouse][Google Lighthouse] is an open-source, automated tool for measuring the quality of web pages. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
+[Google Lighthouse][google lighthouse] is an open-source, automated tool for measuring the quality of web pages. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
 
 ### Performance
 
@@ -56,15 +56,13 @@ Checks for common issues that may prevent users from accessing your content.
 
 Looks for everything from HTTPS usage to correct image aspect ratios.
 
-### SEO 
+### SEO
 
 Checks for best practices to ensure your site is discoverable.
-
 
 ## Demo
 
 Check the live demo here 👉️ https://landy.website/
-
 
 ### Installation
 
@@ -74,7 +72,7 @@ To create a new app, you have to:
 
 ### npx
 
-Use the following command 
+Use the following command
 
 ```sh
 npx create-react-app my-app --template adrinlol
